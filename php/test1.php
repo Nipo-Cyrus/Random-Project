@@ -7,6 +7,14 @@
     <style text/css>
     .table1 {
         width: 400px;
+        border: 0px;
+        
+    }
+    .table2 {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
     }
 
     </style>
@@ -19,7 +27,7 @@
                 <th>Login</th>
             </tr>
             <tr> <td>
-                <table border=1 class="table2">
+                <table border=1 class="table2" align="center">
                     <tr>
                         <td>Username <br> <input type="text" name="username" id="username"></td>
                     </tr>
@@ -29,8 +37,6 @@
                 </table></td>
             </tr>
         </table>
-      
-
      </form>
 </body>
 </html>
